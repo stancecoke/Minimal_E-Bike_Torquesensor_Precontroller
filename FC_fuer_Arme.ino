@@ -10,10 +10,10 @@ volatile unsigned long Spannung_Ausgang = 0;  // Wert PWM-Ausgang 0 ... 255
 boolean PASFlag=0;
 
 void setup() {
-  pinMode(1, OUTPUT);           // Ausgang für Gassignal
-  pinMode(2, INPUT_PULLUP);     // Input PAS, external interrupt INT0
-  pinMode(3, INPUT);            // Eingang Poti für Unterstützungsstärke
-  pinMode(4, INPUT);            // Eingang Drehmomentsignal
+  pinMode(2, OUTPUT);           // Ausgang für Gassignal
+  pinMode(3, INPUT_PULLUP);     // Input PAS, external interrupt INT0
+  pinMode(4, INPUT);            // Eingang Poti für Unterstützungsstärke
+  pinMode(5, INPUT);            // Eingang Drehmomentsignal
 
   // Timer0 on PB0 and PB1
   // Fast PWM, TOP=0xFF (WGM01, WGM00)
