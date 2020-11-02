@@ -8,5 +8,7 @@ Reads in the analog torque signal and the digital PAS signal and calculates the 
 ![](METOP.png)  
   
   
-![](METOP_schematic.png)
+![](METOP_schematic.png)  
+  
+![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0995f7a6-730b-48d0-8612-c4408d15e84d/dc7h4n3-51e6389c-5f86-4fb2-a7ad-34f75f672003.png)
   
