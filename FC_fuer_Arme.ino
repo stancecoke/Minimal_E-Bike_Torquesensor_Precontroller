@@ -24,7 +24,7 @@ void setup() {
 
   TIMSK |= (1 << TOIE0); //enable Timer0 overflow interrupt
   sei();
-  attachInterrupt(2, PAS_Puls, CHANGE); //INT0 ist Interruptquelle 2. Change: Interrupt bei jedem Flankenwechsel also 32 mal pro Kurbelumdrehung
+  attachInterrupt(0, PAS_Puls, CHANGE); //INT0 ist Interruptquelle 2. Change: Interrupt bei jedem Flankenwechsel also 32 mal pro Kurbelumdrehung
 }
 
 
